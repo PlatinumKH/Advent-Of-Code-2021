@@ -15,7 +15,3 @@ input.forEach(ins => {
 });
 
 console.log(h * v);
-
-function convert(ins) {
-  return (ins.dir === 'down') ? ins.steps : -ins.steps;
-}
